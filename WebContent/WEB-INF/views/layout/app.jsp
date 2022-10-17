@@ -9,15 +9,20 @@
         <link rel="stylesheet" href="<c:url value='/css/style.css' />">
     </head>
     <body>
+
         <div id="wrapper">
             <div id="header">
                 <h1>メッセージボード アプリケーション</h1>
             </div>
-            <div id="content">
-                ${param.content}
-            </div>
+
+                <div class="main">
+                    <img src="./images/001.jpeg" alt="">
+                    <div id="content">
+                        ${param.content}
+                    </div>
+                </div>
             <div id="footer">
-                by Taro Kirameki.
+                by Shunsuke Nakazono.
             </div>
         </div>
     </body>
